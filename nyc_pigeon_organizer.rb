@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
   final_results = data.each do |key,value|
     value.each do |inner_key, names|
       names.each do
-        
+
 
         end
       end
