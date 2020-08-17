@@ -4,18 +4,13 @@ require 'pry'
 
 
 def nyc_pigeon_organizer(data)
+  new_hash = {}
 
   final_results = data.each do |key,value|
     value.each do |inner_key, names|
       names.each do |name|
         binding.pry
-        if name.any? === []
-          final_array[name] = {}
-        end
-        if !final_array[name][key]
-          !final_array[name][key] = []
-        end
-        final_array[name][key].push(inner_key.to_s)
+
       end
     end
   end
