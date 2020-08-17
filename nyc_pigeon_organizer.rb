@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |inner_key, names|
       names.each do |name|
-        new_hash
+        new_hash = Hash[name.zip(inner_key)]
 
         end
       end
