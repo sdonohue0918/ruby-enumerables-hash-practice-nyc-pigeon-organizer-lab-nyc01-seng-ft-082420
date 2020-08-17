@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
 
   final_results = data.each do |key,value|
     value.each do |inner_key, names|
-      names.merge(new_hash)
+      new_hash.merge(names)
       end
     end
   return new_hash
