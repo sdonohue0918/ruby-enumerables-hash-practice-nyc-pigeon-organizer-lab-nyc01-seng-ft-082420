@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
       puts names
       end
     end
-
+  return new_hash
+    
 binding.pry
 end
