@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, value_names_array|
       value_names_array.each do |name|
         binding.pry
-        
+
 
       end
     end
